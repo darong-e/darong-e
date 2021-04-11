@@ -3,41 +3,58 @@
 <head>
   <title>WEB - web</title>
   <meta charset="utf-8" name="twitter:" content="">
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-YZDJH3M8LQ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-YZDJH3M8LQ');
-</script>
+  <style>
+    a{
+      color:black;
+      text-decoration: none;
+    }
+    h1{
+      font-size: 45px;
+      text-align: center;
+      border-bottom: 2px solid black;
+      margin: 0;
+      padding: 15px;
+    }
+    #grid ol{
+      border-right:2px solid black;
+      margin:0;
+      width: 130px;
+      padding-left: 40px;
+      padding-top: 20px;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 200px 1fr;
+    }
+  </style>
 </head>
 <body>
   <h1><a href="index.html">WEB</a></h1>
-  <ol type="i" start="5"> <!--orderd list -->
-    <li><a href="1.html">HTM</a>L</li>
-    <li><a href="2.html">CSS</a></li>
-    <li><a href="3.html">JavaScript</a></li>
-  </ol>
-  <ul type="square" font-size="20px"> <!--unordered list-->
-    <li>hi</li>
-    <li>hello</li>
-    <li>what the</li>
-  </ul>
-  <li>why?</li>
-  <p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/uc2dnHQurag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </p>
-  <h2>WEB</h2>
-  안녕하세용 저는 <strong><u>다롱이</u></strong>입니당 하하하<br>
-  <p>hypertext markup Language(HTML) is the standard markup langusage for
-  creating web pages and web applications. Web browsers receive HTML
-  documents from a web server or from local storage and render them into
-  multimedia web pages.</p>
+  <div id="grid">
+    <div>
+      <ol type="i" start="5"> <!--orderd list -->
+        <li><a href="1.html">HTM</a>L</li>
+        <li><a href="2.html">CSS</a></li>
+        <li><a href="3.html">JavaScript</a></li>
+      </ol>
+      <ol> <!--unordered list-->
+        <li>hi</li>
+        <li>hello</li>
+        <li>what the</li>
+      </ol>
+    </div>
+    <div>
+      <h2>WEB</h2>
+      안녕하세용 저는 <strong><u>다롱이</u></strong>입니당 하하하<br>
+      <p>hypertext markup Language(HTML) is the standard markup langusage for
+      creating web pages and web applications. Web browsers receive HTML
+      documents from a web server or from local storage and render them into
+      multimedia web pages.</p>
 
-  <p><a href="https://developer.mozilla.org/ko/docs/Web/HTML/Element/a" target="_blank"
-    title="html <a> specification">아무말 대잔치</a></p>
+      <p><a href="https://developer.mozilla.org/ko/docs/Web/HTML/Element/a" target="_blank"
+        title="html <a> specification">아무말 대잔치</a></p>
+    </div>
+  </div>
   <img src="11.jfif" width="500">
   <table border="1">
     <tr>
@@ -71,21 +88,6 @@
         })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  </p>
-  <p>
-    <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/60602e79067c2605c0bcf99a/1f1rrb31u';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
-    </script>
-    <!--End of Tawk.to Script-->
   </p>
 </body>
 </html>
